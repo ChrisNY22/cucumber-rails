@@ -1,0 +1,10 @@
+Feature:  Broker Log In
+	In order to access site
+	As an Broker
+	I want to  log in
+	
+	Scenario:  Broker Signs In
+		Given Broker types in user name
+		When on log in screen
+		Then you should see Broker Dashboard
+		
